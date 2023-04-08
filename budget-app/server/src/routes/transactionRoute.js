@@ -1,0 +1,12 @@
+const express = require("express");
+const router = express.Router();
+const tokenHandler = require("../handlers/tokenHandler");
+const { transactionctrl } = require("../controllers/indexctrl");
+router.post("/",tokenHandler.verifyToken, transactionctrl.create);
+router.get("/",tokenHandler.verifyToken, transactionctrl.getAll);
+router.get("/income",tokenHandler.verifyToken, transactionctrl.getIncome);
+router.get("/expense",tokenHandler.verifyToken, transactionctrl.getExpense);
+router.get("/:id",tokenHandler.verifyToken, transactionctrl.getOne);
+router.put('/:id',tokenHandler.verifyToken,transactionctrl.update);
+router.delete('/:id',tokenHandler.verifyToken,transactionctrl.delete);
+module.exports = router;

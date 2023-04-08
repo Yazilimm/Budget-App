@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Error 1 asdasdadsasdasdasd"
+    },
+    {
+        "icon": "bx bxs-caret-up-circle",
+        "content": "Income Added"
+    },
+    {
+        "icon": "bx bxs-caret-down-circle",
+        "content": "Expense Added"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Error 2"
+    }  
+]

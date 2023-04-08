@@ -1,0 +1,28 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "expense",
+        "route": "/expense",
+        "icon": "bx bx-trending-down"
+    },
+    {
+        "display_name": "income",
+        "route": "/income",
+        "icon": "bx bx-trending-up"
+    },
+    {
+        "display_name": "add",
+        "route": "/add",
+        "icon": "bx bx-briefcase-alt"
+    },
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    }
+   
+]

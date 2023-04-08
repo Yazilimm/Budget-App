@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-line-chart",
+        "count": "1,995",
+        "title": "Total Income"
+    },
+    {
+        "icon": "bx bx-line-chart-down",
+        "count": "2,001",
+        "title": "Total Expense"
+    },
+    {
+        "icon": "bx bx-dollar-circle",
+        "count": "$2,632",
+        "title": "Balance"
+    },
+    {
+        "icon": "bx bx-receipt",
+        "count": "1,711",
+        "title": "Total orders"
+    }
+]
